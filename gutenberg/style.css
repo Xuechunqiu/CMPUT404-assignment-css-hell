@@ -1,0 +1,74 @@
+body {
+  color: black;
+  background: url("images/groovepaper.png");
+  margin-right: 10%;
+  margin-left: 10%;
+  font-size: medium;
+  font-family: "Garamond", serif;
+  text-align: justify;
+}
+
+/* Theme paragraphs with CSS */
+p {
+  text-indent: 1em;
+  margin-top: 0.25em;
+  margin-bottom: 0.25em;
+}
+p:first-letter {
+  font-family: "Georgia", serif;
+  font-size: 1.5rem;
+}
+
+/* Theme header tags with CSS */
+h1,
+h2,
+h3,
+h4,
+h5 {
+  text-align: center;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1.5;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+h1 {
+  font-family: "Georgia", serif;
+  font-size: 3rem;
+  text-transform: uppercase;
+  margin-bottom: 6rem;
+  letter-spacing: 0.1rem;
+}
+h2 {
+  font-family: "Georgia", serif;
+  font-size: 2rem;
+  text-transform: uppercase;
+  margin-bottom: 3rem;
+}
+
+hr {
+  width: 50%;
+  text-align: center;
+}
+
+/* Theme images and images captions with CSS */
+img {
+  border-style: ridge;
+  box-shadow: 5px 5px 5px blanchedalmond;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a:link {
+  color: blue;
+  text-decoration: none;
+}
+a:visited {
+  color: gray;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
