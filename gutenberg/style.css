@@ -20,6 +20,14 @@ p:first-letter {
 }
 
 /* Theme header tags with CSS */
+hr {
+  border: none;
+  border-top: 1px solid;
+  height: 0;
+  margin: 1.5em auto;
+  width: 25%;
+}
+
 h1,
 h2,
 h3,
@@ -53,12 +61,18 @@ hr {
 }
 
 /* Theme images and images captions with CSS */
+.fig {
+  text-align: center;
+  width: 100% !important;
+}
+
 img {
+  width: 20% !important;
+  height: auto;
+  display: inline;
+  border-radius: 10px;
   border-style: ridge;
   box-shadow: 5px 5px 5px blanchedalmond;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 a:link {
@@ -71,4 +85,39 @@ a:visited {
 }
 a:hover {
   text-decoration: underline;
+}
+
+/* style from downloaded html file */
+.dedication {
+  text-align: center;
+}
+
+.epigraph {
+  font-style: italic;
+  margin: 3em auto;
+  max-width: 40em;
+}
+
+cite {
+  display: block;
+  font-style: normal;
+  font-variant: small-caps;
+  margin-top: 1em;
+  text-align: right;
+}
+
+b {
+  font-variant: small-caps;
+  font-weight: normal;
+}
+
+.toc {
+  text-align: center;
+}
+
+.toc ol {
+  display: inline-block;
+  list-style: none;
+  margin: auto;
+  padding-left: 0;
 }
